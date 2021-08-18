@@ -1,0 +1,97 @@
+/* =========*========= Google Font =========*========= */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+/* =========*========= Global =========*========= */
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+p {
+  font-size: 14px;
+  font-weight: 300;
+}
+a {
+  color: #23a6f0;
+  text-decoration: none;
+}
+/* =========*========= Common Style Class =========*========= */
+.h_btn {
+  color: #fff;
+  background-color: #e76f51;
+  padding: 10px 30px;
+}
+.h_btn02 {
+  color: #e76f51;
+  background-color: #fff;
+  padding: 10px 30px;
+  border: 1px solid #e76f51;
+}
+.section_title {
+  margin: 7% 0;
+  text-align: center;
+}
+.section_title h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.section_title h6 {
+  color: #e76f51;
+  position: relative;
+}
+.h_mark {
+  color: #e76f51;
+}
+.fill,
+.empty {
+  color: #e76f51;
+}
+.card {
+  min-height: 500px;
+}
+/* =========*========= Header =========*========= */
+header {
+  width: 100%;
+  background-color: #264653;
+  padding: 30px 30px;
+}
+/* ------*------ Hero Section ------*------ */
+#hero p {
+  color: #e0e0e0;
+}
+
+/* =========*========= Main =========*========= */
+/* ------*------ Featured Section ------*------ */
+.duplicate {
+  filter: grayscale(1);
+}
+/* ------*------ Happy Clients ------*------ */
+.user img {
+  width: 150px;
+  border-radius: 50%;
+}
+/* ------*------ CTA Section ------*------ */
+#cta {
+  background-color: #264653;
+  padding: 10% 0;
+}
+/* ------*------ Newsletter Section ------*------ */
+#newsletter {
+  background-color: #23a6f0;
+  padding: 5% 0;
+}
+/* =========*========= Footer =========*========= */
+footer {
+  background-color: #0b0d17;
+  padding: 5% 0;
+}
+.footer_left a {
+  color: #c6c7c9;
+}
+.footer_left small {
+  color: #c6c7c9;
+}
+.footer_right h4 {
+  color: #c6c7c9;
+}
+.footer_right img {
+  width: 120px;
+}
